@@ -1,0 +1,117 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    position: relative;
+    background-color: #fff;
+    nav{
+        width: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 99;
+        background-color: #fff;
+       .container1{
+        max-width: 1272px;
+        margin: 0 auto;
+        padding: 0 20px;
+        // border: 1px solid red;
+        .navbar1{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 36px 0;
+            .logo1{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 24px;
+                .logo1-search{
+                    display: flex;
+                    .input1{
+                     font-family: 'Montserrat';
+                     font-style: normal;
+                     font-weight: 400;
+                     font-size: 14px;
+                     line-height: 24px;
+                     color: #808080;
+                     padding: 12px 230px 12px 16px;
+                     border: 1px solid #CCCCCC;
+                     border-radius: 8px;
+                     outline: none;
+                    }
+                    .logo1-img{
+                       margin-left: -40px;
+                        margin-top: 14px;
+                    }
+                }
+            }
+             .logo1-1{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 24px;
+                .logo1-1_link{
+                    font-family: 'Montserrat SemiBold';
+                 font-size: 16px;
+                 line-height: 32px;
+                 color: #1C3554;
+                 text-decoration: none;
+                 cursor: pointer;
+                 transition: 0.4;
+                 &:hover {
+                    transition: 0.4s;
+                    color: #0e0e0f;
+                 }
+                }
+                .sign-up1{
+                    display: flex;
+                    align-items: center;
+                    gap: 16px;
+                    .login1-link{
+                        font-family: 'Montserrat SemiBold';
+                     font-size: 16px;
+                     line-height: 32px;
+                     color: #1C3554;
+                     padding: 8px 32px;
+                     border: 1px solid #1C3554;
+                     border-radius: 8px;
+                     text-decoration: none;
+                     cursor: pointer;
+                     transition: 0.4s;
+                     &:hover {
+                        color: #062243;
+                        transition: 0.4s;
+                        background-color: #e4e8ee;
+                     }
+                    }
+                    .sign1-link{
+                        font-family: 'Montserrat SemiBold';
+                     font-size: 16px;
+                     line-height: 32px;
+                     color: #FFFFFF;
+                     text-decoration: none;
+                     padding: 8px 32px;
+                     background: #F72585;
+                     border-radius: 8px;
+                     cursor: pointer;
+                     transition: 0.4s;
+                     &:hover {
+                        color: #F72585;
+                        border: 1px solid #F72585;
+                        transition: 0.4s;
+                        background-color: #fff;
+                     }
+                    }
+                }
+            }
+        }
+       }
+    }
+}

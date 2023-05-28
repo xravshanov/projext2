@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer1{
+    background: #021934;
+    
+        .container1{
+            max-width: 1272px;
+            margin: 0 auto;
+            padding: 0 20px;
+            
+            .ten1{
+                display: flex;
+                align-items: start;
+                justify-content: space-between;
+                padding: 80px 39px 80px 4px;
+                .ten1-1{
+                    .ten1-img{
+                        padding-bottom: 36px;
+                    }
+                    .ten1-text{
+                        max-width: 500px;
+                        height: 81px;
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 27px;
+                         color: #FFFFFF;
+
+                    }
+                }
+                .ten1-ul {
+                 display: flex;
+                 align-items: start;
+                 justify-content: center;
+                 gap: 105px;
+                 
+                 .ul-1 ul{
+                    list-style-type: none;
+                    .ten1-link {
+                        padding-bottom: 24px;
+                        a {
+                            font-family: 'Rubik';
+                           font-style: normal;
+                           font-weight: 400;
+                           font-size: 24px;
+                           line-height: 32px;
+                            font-feature-settings: 'pnum' on, 'lnum' on;
+                            color: #FFFFFF;
+                            text-decoration: none;
+                            cursor: pointer;
+                            transition: 0.4s;
+                            &:hover{
+                                color: #b7b3b3;
+                                transition: 0.4s;
+                            }
+                         }
+                    }
+                     .ten1-link1 {
+                        padding-bottom: 8px;
+                        a {
+                            font-family: 'Montserrat SemiBold';
+                          font-size: 16px;
+                          line-height: 32px;
+                          color: #FFFFFF;
+                         text-decoration: none;
+                         cursor: pointer;
+                         transition: 0.4s;
+                        &:hover{
+                            color: #b7b3b3;
+                            transition: 0.4s;
+                        }
+                     }
+                     }
+                 }
+                }
+            }
+            .ten1-page{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 39px 40px 4px;
+                .ten1-page1{
+                    display: flex;
+                    align-items: center;
+                    gap: 40px;
+                    .ten1-h3{
+                        font-family: 'Montserrat';
+                     font-style: normal;
+                      font-weight: 400;
+                      font-size: 16px;
+                     line-height: 27px;
+                     color: #FFFFFF;
+                     cursor: pointer;
+                     transition: 0.4s;
+                     &:hover{
+                        color: #e89b9b;
+                        transition: 0.4s;
+                     }
+
+                    }
+                    
+                }
+                .ten1-h4{
+                    font-family: 'Montserrat';
+                 font-style: normal;
+                 font-weight: 400;
+                 font-size: 16px;
+                 line-height: 27px;
+                 text-align: right;
+                color: #FFFFFF;
+                cursor: pointer;
+                transition: 0.4s;
+                &:hover{
+                    color: #e89b9b;
+                }
+
+                }
+            }
+        }
+
+}
